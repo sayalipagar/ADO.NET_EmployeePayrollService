@@ -1,10 +1,11 @@
 ﻿namespace ADO.NET_PayrollService
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To ADO.NET!");
+            EmployeeRepository.GetAllEmployee();
+            Console.ReadLine();
         }
     }
 }
